@@ -1,4 +1,4 @@
-import { categories, type MenuItem } from '../data/menu';
+import { categories } from '../data/menu';
 
 interface MenuTabsProps {
   activeCategory: string;

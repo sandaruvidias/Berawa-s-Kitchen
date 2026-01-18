@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container } from '../components/Container';
 import { SectionTitle } from '../components/SectionTitle';
 import { GalleryLightbox } from '../components/GalleryLightbox';
-import { galleryImages, type GalleryImage } from '../data/gallery';
+import { galleryImages } from '../data/gallery';
 
 export const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);

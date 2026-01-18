@@ -4,7 +4,7 @@ import { SectionTitle } from '../components/SectionTitle';
 import { MenuTabs } from '../components/MenuTabs';
 import { Button } from '../components/Button';
 import { Download } from 'lucide-react';
-import { menuItems, type MenuItem } from '../data/menu';
+import { menuItems } from '../data/menu';
 
 export const Menu = () => {
   const [activeCategory, setActiveCategory] = useState<string>('breakfast');
