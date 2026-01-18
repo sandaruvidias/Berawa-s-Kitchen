@@ -51,8 +51,7 @@ src/
 ### Gallery Images
 **File:** `src/data/gallery.ts`
 - Edit the `galleryImages` array to update gallery images
-- Replace placeholder SVGs in `public/images/` with actual JPG images
-- Update file extensions in `galleryImages` array from `.svg` to `.jpg` after adding real images
+- Currently using Unsplash placeholder images - replace with your own images in `public/images/`
 
 ### Contact Information
 **Files to edit:**
@@ -90,4 +89,6 @@ src/
 - ✅ Accessible (semantic HTML, ARIA labels, focus states)
 - ✅ Smooth animations and hover effects
 - ✅ TypeScript for type safety
-
+- ✅ Premium hero image on landing page
+- ✅ All menu items with beautiful food images
+- ✅ Professional gallery with real restaurant photos
